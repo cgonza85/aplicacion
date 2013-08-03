@@ -8,7 +8,7 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 
 <?php echo $form->textFieldRow($model, 'id', array('class' => 'span5')); ?>
 
-<?php echo $form->dropDownListRow($model, 'categoria_id', CHtml::listData(Categoria::model()->findAll(), 'id', Categoria::representingColumn())); ?>
+<?php echo $form->dropDownListRow($model, 'categoria_id', Categoria::Listado(), array('empty'=>'Seleccionar categoría')); ?>
 
 <?php echo $form->textFieldRow($model, 'nombre', array('class' => 'span5', 'maxlength' => 255)); ?>
 

@@ -278,3 +278,54 @@ REQUEST_URI=/aplicacion/index.php/producto/index
 in /home/chris/webserver/aplicacion/protected/views/producto/index.php (40)
 in /home/chris/webserver/aplicacion/protected/extensions/AweCrud/components/AweController.php (255)
 in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php (101)
+2013/08/03 18:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php:128
+Stack trace:
+#0 /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php(52): ProductoController->loadModel('7')
+#1 [internal function]: ProductoController->actionUpdate('7')
+#2 /home/chris/webserver/aplicacion/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProductoController), Array)
+#3 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductoController), Object(ReflectionMethod), Array)
+#4 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/update')
+#9 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/chris/webserver/aplicacion/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/aplicacion/index.php/producto/update/7
+HTTP_REFERER=http://localhost/aplicacion/index.php/producto/admin
+---
+2013/08/03 18:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php:128
+Stack trace:
+#0 /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php(52): ProductoController->loadModel('7')
+#1 [internal function]: ProductoController->actionUpdate('7')
+#2 /home/chris/webserver/aplicacion/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProductoController), Array)
+#3 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductoController), Object(ReflectionMethod), Array)
+#4 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/update')
+#9 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/chris/webserver/aplicacion/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/aplicacion/index.php/producto/update/7
+HTTP_REFERER=http://localhost/aplicacion/index.php/producto/admin
+---
+2013/08/03 18:51:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php:128
+Stack trace:
+#0 /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php(18): ProductoController->loadModel('7')
+#1 [internal function]: ProductoController->actionView('7')
+#2 /home/chris/webserver/aplicacion/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProductoController), Array)
+#3 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductoController), Object(ReflectionMethod), Array)
+#4 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('producto/view')
+#9 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/chris/webserver/aplicacion/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/aplicacion/index.php/producto/7
+HTTP_REFERER=http://localhost/aplicacion/index.php/producto/update/7
+---

@@ -15,11 +15,11 @@
 
     <?php echo $form->errorSummary($model) ?>
 
-                            <?php echo $form->dropDownListRow($model, 'categoria_id', CHtml::listData(Categoria::model()->findAll(), 'id', Categoria::representingColumn())) ?>
-                        <?php echo $form->textFieldRow($model, 'nombre', array('class' => 'span5', 'maxlength' => 255)) ?>
-                        <?php echo $form->textFieldRow($model, 'marca', array('class' => 'span5', 'maxlength' => 255)) ?>
-                <div class="form-actions">
-                <?php $this->widget('bootstrap.widgets.TbButton', array(
+    <?php echo $form->dropDownListRow($model, 'categoria_id', Categoria::Listado(), array('empty'=>'Seleccionar categoría')) ?>
+    <?php echo $form->textFieldRow($model, 'nombre', array('class' => 'span5', 'maxlength' => 255)) ?>
+    <?php echo $form->textFieldRow($model, 'marca', array('class' => 'span5', 'maxlength' => 255)) ?>
+    <div class="form-actions">
+            <?php $this->widget('bootstrap.widgets.TbButton', array(
 			'buttonType'=>'submit',
 			'type'=>'primary',
 			'label'=>$model->isNewRecord ? Yii::t('AweCrud.app', 'Create') : Yii::t('AweCrud.app', 'Save'),

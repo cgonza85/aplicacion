@@ -17,4 +17,8 @@ class Categoria extends BaseCategoria
         return Yii::t('app', 'Categoria|Categorias', $n);
     }
 
+    public static function Listado(){
+        return CHtml::listData(Categoria::model()->findAll(), 'id', Categoria::representingColumn());
+    }
+
 }
