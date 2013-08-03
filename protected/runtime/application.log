@@ -1,0 +1,204 @@
+2013/08/03 16:22:05 [error] [exception.CException] exception 'CException' with message 'La propiedad "Bootstrap"."responsiveCss" no se encuentra definida.' in /home/chris/webserver/aplicacion/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(220): CComponent->__set('responsiveCss', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:22:26 [error] [exception.CException] exception 'CException' with message 'La propiedad "Bootstrap"."responsiveCss" no se encuentra definida.' in /home/chris/webserver/aplicacion/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(220): CComponent->__set('responsiveCss', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:22:31 [error] [exception.CException] exception 'CException' with message 'La propiedad "Bootstrap"."responsiveCss" no se encuentra definida.' in /home/chris/webserver/aplicacion/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(220): CComponent->__set('responsiveCss', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:23:00 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:18 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:22 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:23 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:23 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:23 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:23 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:24 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:24 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:24 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:24 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:25 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:25 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
+2013/08/03 16:25:25 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.components.Bootstrap" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /home/chris/webserver/aplicacion/yii/framework/YiiBase.php:349
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(196): YiiBase::import('bootstrap.compo...', true)
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(386): YiiBase::createComponent(Array)
+#2 /home/chris/webserver/aplicacion/yii/framework/base/CModule.php(523): CModule->getComponent('bootstrap')
+#3 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#4 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(125): CApplication->__construct('/home/chris/web...')
+#5 /home/chris/webserver/aplicacion/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/chris/web...')
+#6 /home/chris/webserver/aplicacion/index.php(13): YiiBase::createWebApplication('/home/chris/web...')
+#7 {main}
+REQUEST_URI=/aplicacion/
+---
