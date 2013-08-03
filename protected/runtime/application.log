@@ -202,3 +202,19 @@ Stack trace:
 #7 {main}
 REQUEST_URI=/aplicacion/
 ---
+2013/08/03 16:36:46 [warning] [application] Error al establecer unsafe al atributo "layout" de "AweCrudCode".
+in /home/chris/webserver/aplicacion/index.php (13)
+2013/08/03 16:36:53 [warning] [application] Error al establecer unsafe al atributo "layout" de "AweCrudCode".
+in /home/chris/webserver/aplicacion/index.php (13)
+2013/08/03 16:37:08 [warning] [application] Error al establecer unsafe al atributo "layout" de "AweCrudCode".
+in /home/chris/webserver/aplicacion/index.php (13)
+2013/08/03 16:37:11 [warning] [application] Error al establecer unsafe al atributo "layout" de "AweCrudCode".
+in /home/chris/webserver/aplicacion/index.php (13)
+2013/08/03 16:37:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "productos"' in /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('productos')
+#1 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/chris/webserver/aplicacion/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/aplicacion/productos
+---
