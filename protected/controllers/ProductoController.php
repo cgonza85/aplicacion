@@ -91,9 +91,13 @@ class ProductoController extends AweController
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Producto');
+		$model = new Producto('search');
+		$model->unsetAttributes(); // clear any default values
+		if(isset($_GET['Producto']))
+			$model->attributes = $_GET['Producto'];
+
 		$this->render('index', array(
-			'dataProvider' => $dataProvider,
+			'model' => $model,
 		));
 	}
 

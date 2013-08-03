@@ -91,9 +91,13 @@ class CategoriaController extends AweController
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Categoria');
+		$model = new Categoria('search');
+		$model->unsetAttributes(); // clear any default values
+		if(isset($_GET['Categoria']))
+			$model->attributes = $_GET['Categoria'];
+
 		$this->render('index', array(
-			'dataProvider' => $dataProvider,
+			'model' => $model,
 		));
 	}
 

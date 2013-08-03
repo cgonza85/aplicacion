@@ -242,3 +242,39 @@ Stack trace:
 REQUEST_URI=/aplicacion/index.php/categoria/delete/1?ajax=categoria-grid
 HTTP_REFERER=http://localhost/aplicacion/index.php/categoria/admin
 ---
+2013/08/03 17:04:38 [error] [php] Undefined variable: model (/home/chris/webserver/aplicacion/protected/views/producto/index.php:21)
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(869): ProductoController->renderFile()
+#1 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(782): ProductoController->renderPartial()
+#2 /home/chris/webserver/aplicacion/protected/extensions/AweCrud/components/AweController.php(255): ProductoController->render()
+#3 /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php(97): ProductoController->render()
+#4 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(49): ProductoController->actionIndex()
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): ProductoController->runAction()
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): ProductoController->runActionWithFilters()
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): ProductoController->run()
+#9 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/chris/webserver/aplicacion/index.php(13): CWebApplication->run()
+REQUEST_URI=/aplicacion/index.php/producto/index
+in /home/chris/webserver/aplicacion/protected/views/producto/index.php (21)
+in /home/chris/webserver/aplicacion/protected/extensions/AweCrud/components/AweController.php (255)
+in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php (97)
+2013/08/03 17:07:21 [error] [php] Undefined variable: dataProvider (/home/chris/webserver/aplicacion/protected/views/producto/index.php:40)
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(869): ProductoController->renderFile()
+#1 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(782): ProductoController->renderPartial()
+#2 /home/chris/webserver/aplicacion/protected/extensions/AweCrud/components/AweController.php(255): ProductoController->render()
+#3 /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php(101): ProductoController->render()
+#4 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(49): ProductoController->actionIndex()
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): ProductoController->runAction()
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): ProductoController->runActionWithFilters()
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): ProductoController->run()
+#9 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/chris/webserver/aplicacion/index.php(13): CWebApplication->run()
+REQUEST_URI=/aplicacion/index.php/producto/index
+in /home/chris/webserver/aplicacion/protected/views/producto/index.php (40)
+in /home/chris/webserver/aplicacion/protected/extensions/AweCrud/components/AweController.php (255)
+in /home/chris/webserver/aplicacion/protected/controllers/ProductoController.php (101)
