@@ -77,7 +77,11 @@ class ProductoController extends AweController
 		{
 			// we only allow deletion via POST request
 			$this->loadModel($id)->delete();
-
+			if(isset($_GET['ajax']))
+				echo "<div class='alert alert-info'>El producto ha sido eliminado</div>"; //for ajax
+			else{
+				Yii::app()->user->setFlash('info','El producto ha sido eliminado');
+			}
 			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 			if(!isset($_GET['ajax']))
 				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

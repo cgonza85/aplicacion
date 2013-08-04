@@ -76,8 +76,26 @@ class CategoriaController extends AweController
 		if(Yii::app()->request->isPostRequest)
 		{
 			// we only allow deletion via POST request
-			$this->loadModel($id)->delete();
+			$model = $this->loadModel($id);
+			//->delete();
+			$productos = Producto::model()->findAllByAttributes(array('categoria_id'=>$model->id));
+				if(count($productos) > 0) {
+    				if(isset($_GET['ajax']))
+    				echo "<div class='alert alert-error'>La categoría no se puede eliminar ya que esta asociada a algun producto</div>"; //for ajax
+					else{
+						Yii::app()->user->setFlash('error','La categoría no se puede eliminar ya que esta asociada a algun producto');
+					}
 
+				}
+			else { 
+				$model->delete(); 
+				if(isset($_GET['ajax']))
+    				echo "<div class='alert alert-info'>La categoría ha sido eliminada</div>"; //for ajax
+					else{
+						Yii::app()->user->setFlash('info','La categoría ha sido eliminada');
+					}
+
+			}
 			// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 			if(!isset($_GET['ajax']))
 				$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));

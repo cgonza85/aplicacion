@@ -32,7 +32,7 @@ abstract class BaseProducto extends AweActiveRecord {
 
     public function rules() {
         return array(
-            array('categoria_id', 'required'),
+            array('categoria_id, nombre, marca', 'required'),
             array('categoria_id', 'numerical', 'integerOnly'=>true),
             array('nombre, marca', 'length', 'max'=>255),
             array('nombre, marca', 'default', 'setOnEmpty' => true, 'value' => null),

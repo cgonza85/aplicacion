@@ -36,6 +36,20 @@ $('.search-form form').submit(function(){
 )); ?>
 </div><!-- search-form -->
 
+<div id="statusMsg" style="margin-top:10px">
+<?php $this->widget('bootstrap.widgets.TbAlert', array(
+        'block'=>true, // display a larger alert block?
+        'fade'=>true, // use transitions?
+        'closeText'=>'5', // close link text - if set to false, no close link is displayed
+        'alerts'=>array( // configurations per alert type
+            'error'=>array('block'=>true, 'fade'=>true, 'closeText'=>'5'), // success, info, warning, error or danger
+            'info'=>array('block'=>true, 'fade'=>true, 'closeText'=>'5'), // success, info, warning, error or danger
+        ),
+    )); ?>
+</div>
+
+
+
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
     'id' => 'producto-grid',
     'type' => 'striped condensed',
@@ -52,6 +66,7 @@ $('.search-form form').submit(function(){
         'marca',
 		array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',
+			'afterDelete'=>'function(link,success,data){ if(success) $("#statusMsg").html(data); }',
 		),
 	),
 )); ?>

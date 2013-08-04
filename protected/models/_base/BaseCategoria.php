@@ -30,6 +30,7 @@ abstract class BaseCategoria extends AweActiveRecord {
 
     public function rules() {
         return array(
+            array('nombre', 'required'),
             array('nombre', 'length', 'max'=>255),
             array('nombre', 'default', 'setOnEmpty' => true, 'value' => null),
             array('id, nombre', 'safe', 'on'=>'search'),
