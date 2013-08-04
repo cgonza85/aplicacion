@@ -44,7 +44,7 @@ $('.search-form form').submit(function(){
         'closeText'=>'5', // close link text - if set to false, no close link is displayed
         'alerts'=>array( // configurations per alert type
             'error'=>array('block'=>true, 'fade'=>true, 'closeText'=>'5'), // success, info, warning, error or danger
-            'success'=>array('block'=>true, 'fade'=>true, 'closeText'=>'5'), // success, info, warning, error or danger
+            'info'=>array('block'=>true, 'fade'=>true, 'closeText'=>'5'), // success, info, warning, error or danger
         ),
     )); ?>
 </div>
