@@ -329,3 +329,19 @@ Stack trace:
 REQUEST_URI=/aplicacion/index.php/producto/7
 HTTP_REFERER=http://localhost/aplicacion/index.php/producto/update/7
 ---
+2013/08/04 00:17:07 [error] [exception.CException] exception 'CException' with message 'SiteController contiene etiquetas de widget en la vista "/home/chris/webserver/aplicacion/themes/bootstrap/views/site/index.php" anidadas incorrectamente. TbHeroUnit widget no contiene la llamada a endWidget().' in /home/chris/webserver/aplicacion/yii/framework/web/CBaseController.php:101
+Stack trace:
+#0 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/chris/web...', NULL, true)
+#1 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#2 /home/chris/webserver/aplicacion/protected/controllers/SiteController.php(32): CController->render('index')
+#3 /home/chris/webserver/aplicacion/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#4 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/chris/webserver/aplicacion/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /home/chris/webserver/aplicacion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 /home/chris/webserver/aplicacion/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/chris/webserver/aplicacion/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/aplicacion/index.php/site/index
+---

@@ -52,7 +52,7 @@ abstract class BaseProducto extends AweActiveRecord {
     public function attributeLabels() {
         return array(
                 'id' => Yii::t('app', 'ID'),
-                'categoria_id' => Yii::t('app', 'Categoria'),
+                'categoria_id' => Yii::t('app', 'Categoría'),
                 'nombre' => Yii::t('app', 'Nombre'),
                 'marca' => Yii::t('app', 'Marca'),
                 'categoria' => null,
